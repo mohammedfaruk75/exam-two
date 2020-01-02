@@ -1,0 +1,133 @@
+
+
+body {}
+
+h2{font-size: 50px;
+    color: #d7dbd7;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 200px;
+}
+h3 {font-size: 24px;color: #515151;
+    letter-spacing: 1px;}
+h4{font-size: 25px;color: #fff;
+    }
+
+p {font-size: 13px; color: #919191;}
+.btn:hover{transform: perspective(500px)rotate(0deg) skew(0deg) 
+    translate(0px,0px);box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);}
+.btn-one {padding: 10px 60px;margin: 50px auto;display: block;
+    color: #ffff;border-radius: 30px;font-size: 25px;    background-color: #99c50a;
+    transition: 0.7s;}
+.btn-sec {color: #6c757d;background-color: #ffffff;border-radius: 5px 30px 30px 5px;
+    padding: 6px 20px;}
+.btn-two {
+    padding: 0px 13px;
+    margin: 16px auto;
+    color: #ffff;
+    border-radius: 10px;
+    font-size: 21px;
+    background-color: #26a6d1;
+    transition: 0.7s;
+    margin-bottom: 50px;
+}
+
+.no-padding {padding: 0px;}
+/* theme css */
+section {
+    padding: 100px 0;
+}
+header {}
+.nav-head {background-color: #fff!important;padding: 24px 0px;
+    color: #a2a2a2;}
+.nav-link.js-scroll-trigger.active {background-color: #dd4b2b;
+    padding : 6px 12px;border-radius: 35px;color: #ffffff!important;
+}
+.nav-link{
+    color: #31353e!important;
+}
+.hero {
+    background:url(../img/icrowdme-PSD---cssauthor.png)top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+    padding-top: 75px;
+    padding-bottom: 30px;
+}
+.img-one {display: block;
+    margin: 0 auto;
+    
+
+}
+.how-it {
+    background-color: #fff;
+    text-align: center;
+
+}
+.dis-sec {
+
+}
+.right-one { background-color: #e2f8ff;
+    padding-top: 50px;
+
+}
+.left-one { background-color: #f5f9eb;
+    padding-top: 50px;
+
+}
+.blog-sec{
+    padding: 70px 0;
+}
+.blog-sec .botom{
+    position: relative;
+}
+
+.blog-sec .btn-sec {
+    position: absolute;
+    top: 210px;
+    right: 14px;
+}
+.blog-sec .img-one{
+   
+    
+}
+.fa.fa-caret-right{
+    color:green;
+}
+
+
+footer{
+    padding-top: 80px; 
+    background-color: #ffff; 
+   
+    
+}
+.footer-end p{font-size: 16px;padding-bottom: 65px;}
+/* Extra small devices (portrait phones, less than 320px)*/
+
+
+
+
+@media (min-width: 0px) and (max-width:500px ) {
+    body{text-align: center;}
+   h1{font-size: 25px;color :#161616;}
+   h2{font-size: 30px;color :#161616;}
+   h3{font-size: 25px;color :#161616;}
+   h4{font-size: 30px;color :#161616;} 
+}
+@media (min-width: 500.01px) and (max-width:768px ) {
+
+}
+
+@media (min-width: 768.01px) and (max-width:1200px ) {
+
+}
+
+@media (min-width: 1200.01px) {
+
+}
